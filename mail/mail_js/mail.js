@@ -10,7 +10,7 @@ const lista = ['pippo@gmail.com', 'pluto@gmail.com', 'paperino@gmail.com', 'topo
 
 // STAMPARE
 
-console.log('Accesso: ', lista);
+console.log('Accesso consentito: ', lista);
 console.log('Utente: ', utente);
 
 // VERIFICARE LISTA E-MAILS
@@ -35,8 +35,21 @@ for (let i = 0; i < verifica.lenght; i++)
             {verifica = true; break;}
         
         /* con break; andiamo ad interrompere il ciclo poiché abbiamo trovato l'e-mail che coincide con la lista */
-        
+
     }
+
+// STAMPARE DUE OPZIONI
+// ACCESSO CONSENTITO
+// ACCESSO NEGATO
+
+if 
+(verifica === true)
+{console.log('Accesso Verificato');}
+else
+{console.log('Accesso Negato');}
+
+
+
 
 
 
